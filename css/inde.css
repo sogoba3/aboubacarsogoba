@@ -1,0 +1,105 @@
+/* Start of the heading styling*/
+body{
+  position: relative;
+  text-align: center;
+}
+.jumbotron{
+	 background-image: url('../images/header_img.gif');
+	 background-size: cover;
+	 background-repeat: no-repeat;
+	 height:600px;
+	 margin-bottom: auto;
+	}
+  div{
+      text-align: center;
+      padding-bottom: 20px;
+  }
+  div.container{padding-top: 75px;
+
+  }
+div.coloreffect{color:white;}
+
+  /* begining of the navbar styling  */
+  ul{
+
+		margin-left: 150px;
+	}
+	li a{
+		 color: white;
+	}
+	li a:hover {
+	    color: red;
+	}
+	.active{
+		background-color: #000000;
+		color: red;
+	}
+	nav{
+		 border-bottom-style: solid;
+	    border-color: #FFD700;
+	}
+
+  /* begining of the 'About' styling */
+
+  .progress{height: ;
+      width: auto;
+  }
+  .progress-bar{
+    padding-top: 10px
+  }
+  .barname{
+    width:60px;
+    height: auto;
+  }
+
+  /* begining of the 'portfolio' styling */
+  .bgcolor{
+    background-color:#F5F5F5;
+  }
+  .headings{
+      padding-top: 30px;
+  }
+
+.yiri .nontastik .worldsj{
+  opacity: 1;
+}
+.text_div{
+  transition: .5s ease;
+ opacity: 0;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ -ms-transform: translate(-50%, -50%);
+ text-align: center;
+}
+.col-sm:hover .yiri {opacity:0.3;}
+.col-sm:hover .nontastik {opacity:0.3;}
+.col-sm:hover .worldsj {opacity:0.3;}
+.col-sm:hover .text_div{
+  opacity: 1;
+}
+
+  /* begining of the 'block' styling */
+
+  .col{
+    padding: 1px;
+    margin:0px;
+
+  }
+  #fs-topic{
+    float: right;
+  }
+  #tf-topic{
+    float: left;
+  }
+  /* begining of the 'Contact' styling */
+
+
+
+  /* begining of the 'footer' styling */
+
+  div.footer{
+  	 background-color: black;
+
+  	}
