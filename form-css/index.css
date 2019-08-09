@@ -1,0 +1,26 @@
+.jumbotron{
+   background-image: url('../images/header_img.gif');
+   background-size: cover;
+	 background-repeat: no-repeat;
+	 height:500px;
+	 margin-bottom: auto;
+
+	}
+  div#wrapit{
+    width: 400px;
+    text-align: center;
+
+  }
+  form{
+
+  }
+
+  #successMessage{
+    color:green;
+    font-size: 90% !important;
+    display: none;
+  }
+  #errorMessage{
+    color:red;
+    font-size: 90% !important;
+  }

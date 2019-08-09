@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="css/inde.css" />
+    <link rel="stylesheet" type="text/css" href="form-css/index.css">
 
     <title>Hello, world!</title>
 
@@ -168,27 +169,26 @@
 	</div>
 </div>
  <!-- begining of the 'Contact' section -->
-<div class="container">
-  <h2>Inline form</h2>
-  <form class="form-horizontal" action="/action_page.php">
+<div class="container-fluid bgcolor " id="wrapit">
+  <h2>SEND E-mail</h2>
+  <form class="form-horizontal" action="contactform.php" method="post">
     <div class="form-group">
-      <label for="email">Email:</label>
+      <input type="name" class="form-control" id="email" placeholder="Enter your full name" name="name">
+    </div>
+    <div class="form-group">
       <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
     </div>
     <div class="form-group">
-      <label for="pwd">Password:</label>
-      <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+      <input type="subject" class="form-control" id="subject" placeholder="Subject" name="subject">
     </div>
-    <div class="checkbox">
-      <label><input type="checkbox" name="remember"> Remember me</label>
-    </div>
+    <div class="form-group">
+      <label for="comment">Comment:</label>
+      <textarea placeholder="message..." class="form-control" rows="5" id="comment"></textarea>
+  </div>
     <button type="submit" class="btn btn-default">Submit</button>
+
   </form>
 </div>
-
-
-   <button type="submit" class="btn btn-default">Submit</button>
- </form>
 
 
  <!-- begining of the '<footer></footer>' section -->
